@@ -1,0 +1,18 @@
+{
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": false,
+  "reportUndefinedVariable": "warning",
+  "reportInvalidTypeForm": "warning",
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "reportAttributeAccessIssue": "none",
+  "reportOperatorIssue": "none",
+  "reportOptionalOperand": "none",
+  "reportArgumentType": "none",
+  "reportCallIssue": "none",
+  "ignore": [
+    "**/Lib/**",
+    "**/Python310/Lib/**",
+    "**/site-packages/**"
+  ]
+}

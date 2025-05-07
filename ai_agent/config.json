@@ -1,0 +1,4 @@
+{
+    "MIN_BLOG_WORDS": 300,
+    "BLOG_QUALITY_THRESHOLD": 0.7
+}

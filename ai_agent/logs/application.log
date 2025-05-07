@@ -1,0 +1,224 @@
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+%(asctime)s - %(name)s - %(levelname)s - %(message)s
+2025-02-21 00:55:18,554 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 00:55:21,567 - utils - INFO - Starting server on http://127.0.0.1:8000
+2025-02-21 00:55:23,840 - utils - INFO - Initializing application services
+2025-02-21 00:55:23,859 - utils - ERROR - Error loading sources: (sqlite3.OperationalError) no such column: sources.last_scraped
+[SQL: SELECT sources.id AS sources_id, sources.name AS sources_name, sources.url AS sources_url, sources.type AS sources_type, sources.last_scraped AS sources_last_scraped 
+FROM sources]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-21 00:55:23,860 - utils - INFO - Loaded 0 news sources for monitoring
+2025-02-21 00:55:25,646 - utils - INFO - Server successfully started on http://127.0.0.1:8000
+2025-02-21 00:55:38,202 - utils - ERROR - Error initializing Google API: name 'Config' is not defined
+2025-02-21 00:56:02,813 - utils - ERROR - Error creating WordPress client: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-21 00:56:02,815 - utils - INFO - Starting news monitoring
+2025-02-21 01:17:47,139 - utils - ERROR - Error creating WordPress client: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-21 01:28:56,938 - utils - ERROR - Error creating WordPress client: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-21 01:28:56,941 - utils - ERROR - WordPress client not initialized
+2025-02-21 01:39:06,485 - utils - ERROR - WordPress connection test failed: HTTPSConnectionPool(host='yourwordpresssite.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000219EB1C4B80>, 'Connection to yourwordpresssite.com timed out. (connect timeout=None)'))
+2025-02-21 01:46:09,466 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 02:05:36,510 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 02:17:25,541 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 03:06:14,410 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 03:06:29,094 - utils - ERROR - Error initializing Google API: name 'Config' is not defined
+2025-02-21 03:06:48,286 - utils - ERROR - Error initializing Google API: name 'Config' is not defined
+2025-02-21 03:06:53,214 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:06:53,217 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 03:06:54,056 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:06:55,479 - utils - ERROR - Error generating blog: 'SEOOptimizer' object has no attribute 'optimize_prompt'
+2025-02-21 03:06:55,488 - utils - ERROR - Error publishing blog: 'meta_description'
+2025-02-21 03:32:09,475 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 03:32:34,526 - utils - ERROR - Error initializing Google API: type object 'Config' has no attribute 'GOOGLE_API_CREDENTIALS'
+2025-02-21 03:32:50,567 - utils - ERROR - Error initializing Google API: type object 'Config' has no attribute 'GOOGLE_API_CREDENTIALS'
+2025-02-21 03:32:54,601 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:32:54,616 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 03:32:55,655 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:33:13,377 - utils - ERROR - Error generating blog: 'NLPProcessor' object has no attribute 'enhance_naturalness'
+2025-02-21 03:33:13,385 - utils - ERROR - Error publishing blog: 'meta_description'
+2025-02-21 03:43:49,084 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 03:44:09,766 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 03:44:22,259 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 03:44:26,586 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:44:26,588 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 03:44:27,596 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:44:50,274 - utils - ERROR - Error generating blog: 'BlogQualityChecker' object has no attribute 'analyze_quality'
+2025-02-21 03:44:50,282 - utils - ERROR - Error publishing blog: 'meta_description'
+2025-02-21 03:55:03,733 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 03:55:25,279 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 03:55:43,750 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 03:55:48,306 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:55:48,310 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 03:55:49,598 - utils - INFO - Fetched 10 trending topics
+2025-02-21 03:56:12,261 - utils - ERROR - Error generating blog: 'SEOOptimizer' object has no attribute 'optimize_title'
+2025-02-21 03:56:12,280 - utils - ERROR - Error publishing blog: 'meta_description'
+2025-02-21 04:01:00,104 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 04:01:20,185 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:01:31,768 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:01:35,260 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:01:35,265 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 04:01:36,476 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:03:11,437 - utils - ERROR - Error generating blog: 'SEOOptimizer' object has no attribute 'generate_meta_description'
+2025-02-21 04:03:11,437 - utils - ERROR - Error publishing blog: 'meta_description'
+2025-02-21 04:08:14,099 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 04:08:32,848 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:08:51,031 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:08:54,398 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:08:54,400 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 04:08:55,707 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:09:37,647 - utils - ERROR - Error generating meta description: name 'sent_tokenize' is not defined
+2025-02-21 04:09:40,606 - utils - ERROR - Failed to publish post. Status code: 400, Response: {"code":"rest_invalid_param","message":"Invalid parameter(s): featured_media","data":{"status":400,"params":{"featured_media":"featured_media is not of type integer."},"details":{"featured_media":{"code":"rest_invalid_type","message":"featured_media is not of type integer.","data":{"param":"featured_media"}}}}}
+2025-02-21 04:09:40,612 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 04:22:57,180 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 04:23:22,146 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:23:36,210 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:23:39,701 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:23:39,708 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 04:23:40,950 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:24:48,516 - utils - ERROR - Error publishing post: invalid literal for int() with base 10: 'data\\images\\deep_vein_thrombosis_0.jpg'
+2025-02-21 04:24:48,516 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 04:44:43,203 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 04:47:49,044 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 04:48:08,292 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:48:29,434 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 04:48:32,666 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:48:32,666 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 04:48:33,911 - utils - INFO - Fetched 10 trending topics
+2025-02-21 04:50:09,302 - utils - ERROR - Error uploading media: name 'os' is not defined
+2025-02-21 04:50:09,304 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 04:50:13,332 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 04:50:13,337 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 05:01:50,818 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 05:02:11,056 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:02:34,638 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:02:40,235 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:02:40,235 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 05:02:41,733 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:03:22,832 - utils - ERROR - Failed to upload media. Status code: 400, Response: {"code":"rest_invalid_json","message":"Invalid JSON body passed.","data":{"status":400,"json_error_code":5,"json_error_message":"Malformed UTF-8 characters, possibly incorrectly encoded"}}
+2025-02-21 05:03:22,840 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 05:03:24,901 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 05:03:24,912 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 05:12:42,734 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 05:13:11,425 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:13:26,772 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:13:33,137 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:13:33,139 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 05:13:34,403 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:14:26,006 - utils - ERROR - Failed to upload media. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 05:14:26,013 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 05:14:27,775 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 05:14:27,794 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 05:24:39,745 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 05:25:12,336 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:30:31,998 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 05:30:48,886 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:31:12,836 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 05:31:15,166 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:31:15,167 - utils - INFO - Selected trending topic: deep vein thrombosis
+2025-02-21 05:31:15,986 - utils - INFO - Fetched 10 trending topics
+2025-02-21 05:31:36,788 - utils - ERROR - [31mError downloading image: cannot identify image file <_io.BytesIO object at 0x0000024F9D1C9BC0>[0m
+2025-02-21 05:31:38,983 - utils - ERROR - [31mError downloading image: cannot identify image file <_io.BytesIO object at 0x0000024F9C97A8E0>[0m
+2025-02-21 05:31:41,582 - utils - ERROR - [31mError downloading image: cannot write mode RGBA as JPEG[0m
+2025-02-21 05:31:48,065 - utils - ERROR - Failed to upload media. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 05:31:48,070 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 05:31:49,846 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 05:31:49,851 - utils - ERROR - Failed to publish post about deep vein thrombosis
+2025-02-21 17:34:06,162 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 17:34:11,443 - utils - INFO - Starting server on http://127.0.0.1:8000
+2025-02-21 17:34:13,643 - utils - INFO - Initializing application services
+2025-02-21 17:34:13,697 - utils - ERROR - Error loading sources: (sqlite3.OperationalError) no such column: sources.last_scraped
+[SQL: SELECT sources.id AS sources_id, sources.name AS sources_name, sources.url AS sources_url, sources.type AS sources_type, sources.last_scraped AS sources_last_scraped 
+FROM sources]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-02-21 17:34:13,697 - utils - INFO - Loaded 0 news sources for monitoring
+2025-02-21 17:34:15,508 - utils - INFO - Server successfully started on http://127.0.0.1:8000
+2025-02-21 17:34:26,696 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 17:34:27,778 - utils - INFO - Starting news monitoring
+2025-02-21 17:36:26,981 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 17:36:36,996 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 17:36:46,013 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 17:36:48,368 - utils - INFO - Fetched 10 trending topics
+2025-02-21 17:36:48,393 - utils - INFO - Selected trending topic: hockey game tonight
+2025-02-21 17:36:49,513 - utils - INFO - Fetched 10 trending topics
+2025-02-21 17:37:10,414 - utils - ERROR - Failed to upload media. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 17:37:10,431 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 17:37:12,012 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 17:37:12,012 - utils - ERROR - Failed to publish post about hockey game tonight
+2025-02-21 17:54:15,342 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.
+2025-02-21 17:54:32,233 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 17:54:45,386 - utils - ERROR - Error initializing Google API: ('Could not deserialize key data. The data may be in an incorrect format, the provided password may be incorrect, it may be encrypted with an unsupported algorithm, or it may be an unsupported key type (e.g. EC curves with explicit parameters).', [<OpenSSLError(code=503841036, lib=60, reason=524556, reason_text=unsupported)>])
+2025-02-21 17:54:52,379 - utils - INFO - Fetched 10 trending topics
+2025-02-21 17:54:52,379 - utils - INFO - Selected trending topic: hockey game tonight
+2025-02-21 17:54:53,161 - utils - INFO - Fetched 10 trending topics
+2025-02-21 17:55:25,127 - utils - ERROR - Failed to upload media. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 17:55:25,132 - utils - WARNING - Failed to upload featured image, proceeding without it
+2025-02-21 17:55:26,406 - utils - ERROR - Failed to publish post. Status code: 401, Response: {"code":"rest_cannot_create","message":"Sorry, you are not allowed to create posts as this user.","data":{"status":401}}
+2025-02-21 17:55:26,411 - utils - ERROR - Failed to publish post about hockey game tonight
+2025-02-21 18:21:33,756 - bitsandbytes.cextension - WARNING - The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers, 8-bit multiplication, and GPU quantization are unavailable.

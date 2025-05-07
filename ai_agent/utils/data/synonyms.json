@@ -1,0 +1,123 @@
+{
+  "good": {
+    "synonyms": ["great", "excellent", "fine", "wonderful", "positive", "superb", "outstanding", "exceptional", "favorable", "satisfactory", "admirable", "commendable", "pleasing", "agreeable", "splendid"],
+    "contexts": {
+      "performance": ["excellent", "outstanding", "superb", "exceptional", "admirable"],
+      "quality": ["fine", "exceptional", "satisfactory", "commendable", "pleasing"],
+      "appearance": ["splendid", "wonderful", "pleasing", "agreeable"],
+      "general": ["good", "great", "positive", "fine", "wonderful"]
+    },
+    "frequencies": {
+      "great": 0.2,
+      "excellent": 0.15,
+      "fine": 0.1,
+      "wonderful": 0.1,
+      "positive": 0.1,
+      "superb": 0.08,
+      "outstanding": 0.08,
+      "exceptional": 0.07,
+      "favorable": 0.05,
+      "satisfactory": 0.02,
+      "admirable": 0.02,
+      "commendable": 0.01,
+      "pleasing": 0.01,
+      "agreeable": 0.01,
+      "splendid": 0.01
+    }
+  },
+  "bad": {
+    "synonyms": ["poor", "terrible", "awful", "negative", "unpleasant", "dreadful", "horrible", "inferior", "substandard", "disappointing", "lousy", "mediocre", "subpar", "unfavorable", "atrocious"],
+    "contexts": {
+      "performance": ["poor", "substandard", "inferior", "lousy", "mediocre"],
+      "experience": ["terrible", "awful", "dreadful", "horrible", "atrocious"],
+      "quality": ["subpar", "inferior", "substandard"],
+      "general": ["bad", "negative", "unpleasant", "unfavorable", "disappointing"]
+    },
+    "frequencies": {
+      "poor": 0.2,
+      "terrible": 0.15,
+      "awful": 0.15,
+      "negative": 0.1,
+      "unpleasant": 0.1,
+      "dreadful": 0.08,
+      "horrible": 0.07,
+      "inferior": 0.03,
+      "substandard": 0.02,
+      "disappointing": 0.02,
+      "lousy": 0.02,
+      "mediocre": 0.02,
+      "subpar": 0.01,
+      "unfavorable": 0.01,
+      "atrocious": 0.01
+    }
+  },
+  "important": {
+    "synonyms": ["crucial", "essential", "significant", "vital", "key", "critical", "fundamental", "necessary", "paramount", "indispensable", "pivotal", "momentous", "consequential", "weighty", "substantial"],
+    "contexts": {
+      "urgency": ["crucial", "critical", "vital", "pivotal", "momentous"],
+      "necessity": ["essential", "necessary", "indispensable", "fundamental", "key"],
+      "impact": ["significant", "consequential", "weighty", "substantial"],
+      "general": ["important", "significant", "key", "essential", "critical"]
+    },
+    "frequencies": {
+      "important": 0.25,
+      "crucial": 0.12,
+      "essential": 0.12,
+      "significant": 0.1,
+      "vital": 0.1,
+      "key": 0.08,
+      "critical": 0.05,
+      "fundamental": 0.05,
+      "necessary": 0.05,
+      "paramount": 0.02,
+      "indispensable": 0.02,
+      "pivotal": 0.01,
+      "momentous": 0.01,
+      "consequential": 0.01,
+      "weighty": 0.01,
+      "substantial": 0.01
+    }
+  },
+  "interesting": {
+    "synonyms": ["fascinating", "engaging", "compelling", "intriguing", "captivating", "absorbing", "stimulating", "thought-provoking", "entertaining", "amusing"],
+    "contexts": {
+      "academic": ["fascinating", "stimulating", "thought-provoking"],
+      "entertainment": ["engaging", "compelling", "captivating", "entertaining", "amusing"],
+      "general": ["interesting", "intriguing", "absorbing"]
+    },
+    "frequencies": {
+      "interesting": 0.3,
+      "fascinating": 0.15,
+      "engaging": 0.12,
+      "compelling": 0.1,
+      "intriguing": 0.1,
+      "captivating": 0.08,
+      "absorbing": 0.05,
+      "stimulating": 0.04,
+      "thought-provoking": 0.03,
+      "entertaining": 0.02,
+      "amusing": 0.01
+    }
+  },
+  "difficult": {
+    "synonyms": ["challenging", "hard", "tough", "demanding", "arduous", "complex", "complicated", "problematic", "taxing", "onerous"],
+    "contexts": {
+      "physical": ["hard", "tough", "arduous", "taxing", "onerous"],
+      "mental": ["challenging", "demanding", "complex", "complicated"],
+      "general": ["difficult", "hard", "challenging", "tough"]
+    },
+    "frequencies": {
+      "difficult": 0.3,
+      "challenging": 0.2,
+      "hard": 0.15,
+      "tough": 0.1,
+      "demanding": 0.08,
+      "arduous": 0.05,
+      "complex": 0.05,
+      "complicated": 0.04,
+      "problematic": 0.02,
+      "taxing": 0.01,
+      "onerous": 0.01
+    }
+  }
+}

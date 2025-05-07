@@ -1,0 +1,20 @@
+{
+    "zencoder.enableRepoIndexing": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportAttributeAccessIssue": "none",
+        "reportOperatorIssue": "none",
+        "reportOptionalOperand": "none",
+        "reportArgumentType": "none",
+        "reportCallIssue": "none",
+        "reportMissingImports": "information"
+    },
+    "python.analysis.ignore": [
+        "**/Lib/**",
+        "**/Python310/Lib/**",
+        "**/site-packages/**"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.analysis.autoImportCompletions": true
+}
