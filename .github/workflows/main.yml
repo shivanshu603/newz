@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: CI/CD Pipeline (Windows)
 
 on:
   push:
@@ -8,10 +8,11 @@ on:
 
 jobs:
   run-main:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
     
     - name: Set up Python
       uses: actions/setup-python@v2
